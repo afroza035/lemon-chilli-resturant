@@ -10,27 +10,27 @@ import pic3 from '../../../images/headerSliderImg/pic3.jpg';
 const HomeHeader = () => {
   const content = [
     {
-      title: "Vulputate Mollis Ultricies Fermentum Parturient",
+      title: "Welcome To",
       description:
-        "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.",
+        "The Lemon Chilli Restaurant",
       button: "Read More",
       image: pic1,
       user: "Luan Gjokaj",
       userProfile: "https://i.imgur.com/JSW6mEk.png",
     },
     {
-      title: "Tortor Dapibus Commodo Aenean Quam",
+      title: "Welcome To",
       description:
-        "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.",
+        "The Lemon Chilli Restaurant",
       button: "Discover",
       image: pic2,
       user: "Erich Behrens",
       userProfile: "https://i.imgur.com/0Clfnu7.png",
     },
     {
-      title: "Phasellus volutpat metus",
+      title: "Welcome To",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+        "The Lemon Chilli Restaurant",
       button: "Buy now",
       image: pic3,
       user: "Bruno Vizovskyy",
@@ -51,7 +51,6 @@ const HomeHeader = () => {
             <div className="inner">
               <h1>{item.title}</h1>
               <p>{item.description}</p>
-              <button>{item.button}</button>
             </div>
           </div>
         ))}
