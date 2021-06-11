@@ -2,5 +2,6 @@
 # Live Link: 
 # Technology: 
 # Components:
-1. Home
-2. NotFound
+1. MainNavbar
+2. Home
+3. NotFound
