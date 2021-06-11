@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../../images/logo/logo.png";
+import "./MainNavbar.css";
 
 const MainNavbar = () => {
   return (
@@ -26,28 +27,31 @@ const MainNavbar = () => {
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav">
-              <Link className="nav-link ms-5" to="#">
+              <Link className="nav-link ms-4 navbar-font-style" to="#">
                 Home
               </Link>
-              <Link className="nav-link ms-5" to="#">
+              <Link className="nav-link ms-4 navbar-font-style" to="#">
                 Menu
               </Link>
-              <Link className="nav-link ms-5" to="#">
+              <Link className="nav-link ms-4 navbar-font-style" to="#">
                 Blog
               </Link>
-              <Link className="nav-link ms-5" to="#">
+              <Link className="nav-link ms-4 navbar-font-style" to="#">
                 About Us
               </Link>
-              <Link className="nav-link ms-5" to="#">
+              <Link className="nav-link ms-4 navbar-font-style" to="#">
                 Contact
               </Link>
-              <Link className="nav-link ms-5" to="#">
+              <Link className="nav-link ms-4 navbar-font-style" to="#">
                 Dashboard
               </Link>
-              <Link className="nav-link ms-5" to="#">
+              <Link className="nav-link ms-4 navbar-font-style" to="#">
                 Admin
               </Link>
-              <Link className="nav-link ms-5 btn btn-danger text-white" to="#">
+              <Link
+                className="nav-link ms-4 navbar-font-style btn btn-danger text-white"
+                to="#"
+              >
                 Book Now
               </Link>
             </div>
