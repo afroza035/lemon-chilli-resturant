@@ -27,7 +27,7 @@ const MainNavbar = () => {
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav">
-              <Link className="nav-link ms-4 navbar-font-style" to="#">
+              <Link className="nav-link ms-4 navbar-font-style" to="/home">
                 Home
               </Link>
               <Link className="nav-link ms-4 navbar-font-style" to="#">
