@@ -58,7 +58,7 @@ const MainNavbar = () => {
           </div>
         </div>
       </nav>
-      <hr />
+      <hr style={{padding:'0', margin:'0'}} />
     </div>
   );
 };
