@@ -166,7 +166,7 @@
 
 @media (max-height: 600px) {
   .slider-content .inner h1 {
-    font-size: 45px;
+    font-size: 55px;
   }
   .slider-description {
     font-size: 18px;
@@ -175,7 +175,7 @@
 
 @media (max-width: 640px) {
   .slider-content .inner h1 {
-    font-size: 45px;
+    font-size: 55px;
   }
   .slider-description {
     font-size: 18px;
