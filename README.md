@@ -6,4 +6,5 @@
 2. Home
     1. HomeHeader(Update)
     2. Discover(Update)
+    3. OurStory
 3. NotFound
