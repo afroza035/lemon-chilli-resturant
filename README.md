@@ -5,4 +5,5 @@
 1. MainNavbar
 2. Home
     1. HomeHeader(Update)
+    2. Discover(Update)
 3. NotFound
