@@ -1,13 +1,32 @@
 import React from "react";
+import chefStory from "../../../images/ourStoryImg/shefImg.jpeg";
+import './OurStory.css';
 
 const OurStory = () => {
   return (
-    <div className="row p-0 m-0">
-      <div className="d-sm-none col-md-6 d-md-block">
-        <h2>img</h2>
+    <div style={{ backgroundColor: "#F7F7F7", height:'100%' }} className="row p-0 m-0">
+      <div className="col-md-5 d-none d-md-block p-0">
+        <img
+          style={{ height: "600px", width: "100%" }}
+          className="img-fluid"
+          src={chefStory}
+          alt=""
+        />
       </div>
-      <div className="col-sm-12 col-md-6">
-        <h2>text</h2>
+      <div className="col-md-7 col-sm-12">
+        <div style={{height:'100%'}} className="px-5 d-flex align-items-center">
+          <div className="text-center p-5">
+            <h3 className='p-1 story-title'>Our Story</h3>
+            <h4 className='p-1 story-sub-title'>THE PERFECT THE LIFE AND FOOD.</h4>
+            <p className="p-2 story-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button className="btn btn-danger">Read More</button>
+          </div>
+        </div>
       </div>
     </div>
   );
