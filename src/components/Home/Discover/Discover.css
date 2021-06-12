@@ -1,0 +1,15 @@
+.discover-main h3 {
+  font-family: "Dancing Script", cursive;
+  color: red;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.discover-main h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.discover-tittle {
+    font-weight: bold;
+}
