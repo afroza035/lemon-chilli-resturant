@@ -84,21 +84,36 @@
   transition-delay: 0s;
 }
 
-.slider-content .inner h1 {
+.slider-header-text {
   font-weight: 900;
   margin: 0 auto;
   max-width: 840px;
   color: #ffffff;
-  font-size: 64px;
+  font-size: 30px;
   line-height: 1;
+  font-family: "Ubuntu", sans-serif;
 }
 
-.slider-content .inner p {
+.slider-content .inner h1 {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 80px;
   line-height: 1.5;
   margin: 20px auto 30px;
   max-width: 640px;
+  font-family: "Dancing Script", cursive;
+}
+.slider-description {
+  /* font-weight: 900; */
+  margin: 0 auto;
+  max-width: 840px;
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 1;
+  font-family: "Ubuntu", sans-serif;
+}
+.slider-title {
+  color: red;
+  font-weight: bold;
 }
 
 .slider-content section {
@@ -151,12 +166,18 @@
 
 @media (max-height: 600px) {
   .slider-content .inner h1 {
-    font-size: 32px;
+    font-size: 55px;
+  }
+  .slider-description {
+    font-size: 18px;
   }
 }
 
 @media (max-width: 640px) {
   .slider-content .inner h1 {
-    font-size: 32px;
+    font-size: 55px;
+  }
+  .slider-description {
+    font-size: 18px;
   }
 }
