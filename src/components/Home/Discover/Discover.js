@@ -39,8 +39,8 @@ const Discover = () => {
                 className="card-img-top rounded-circle"
                 src={discover.logoImage}
               />
-              <h5 className="discover-tittle py-2">{discover.title}</h5>
-              <p className="discover-description discover-description">{discover.description}</p>
+              <h5 className="discover-tittle">{discover.title}</h5>
+              <p className="discover-description">{discover.description}</p>
             </div>
           ))}
         </div>
