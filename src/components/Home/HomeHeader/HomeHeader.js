@@ -2,39 +2,33 @@ import React from "react";
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
 import "./HomeHeader.css";
-import './SliderAnimation.css';
-import pic1 from '../../../images/headerSliderImg/pic1.jpg';
-import pic2 from '../../../images/headerSliderImg/pic2.jpg';
-import pic3 from '../../../images/headerSliderImg/pic3.jpg';
+import "./SliderAnimation.css";
+import pic1 from "../../../images/headerSliderImg/pic1.jpg";
+import pic2 from "../../../images/headerSliderImg/pic2.jpg";
+import pic3 from "../../../images/headerSliderImg/pic3.jpg";
 
 const HomeHeader = () => {
   const content = [
     {
-      title: "Vulputate Mollis Ultricies Fermentum Parturient",
-      description:
-        "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.",
+      sliderTextHeader: "Welcome To",
+      title: "Lemon Chilli",
+      description: "WE HAVE THE GLORY BEGINNING IN RESTAURANT BUSINESS.",
       button: "Read More",
       image: pic1,
-      user: "Luan Gjokaj",
-      userProfile: "https://i.imgur.com/JSW6mEk.png",
     },
     {
-      title: "Tortor Dapibus Commodo Aenean Quam",
-      description:
-        "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.",
+      sliderTextHeader: "Welcome To",
+      title: "Lemon Chilli",
+      description: "WE HAVE THE GLORY BEGINNING IN RESTAURANT BUSINESS.",
       button: "Discover",
       image: pic2,
-      user: "Erich Behrens",
-      userProfile: "https://i.imgur.com/0Clfnu7.png",
     },
     {
-      title: "Phasellus volutpat metus",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+      sliderTextHeader: "Welcome To",
+      title: "Lemon Chilli",
+      description: "WE HAVE THE GLORY BEGINNING IN RESTAURANT BUSINESS.",
       button: "Buy now",
       image: pic3,
-      user: "Bruno Vizovskyy",
-      userProfile: "https://i.imgur.com/4KeKvtH.png",
     },
   ];
   return (
@@ -49,9 +43,12 @@ const HomeHeader = () => {
             }}
           >
             <div className="inner">
-              <h1>{item.title}</h1>
-              <p>{item.description}</p>
-              <button>{item.button}</button>
+              <p className='slider-header-text'>{item.sliderTextHeader}</p>
+              <h1>
+                The <span className="slider-title">{item.title}</span>
+              </h1>
+              <p className='slider-description'>{item.description}</p>
+              {/* <button>{item.button}</button> */}
             </div>
           </div>
         ))}
