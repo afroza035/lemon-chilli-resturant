@@ -1,0 +1,21 @@
+.quick-reservation-style {
+  background-image: url("../../../images/QuickReservation/bg.jpg");
+  background-size: cover;
+}
+.quick-bg-style {
+  background-color: rgba(0, 0, 0, 0.705);
+}
+.quick-main-part {
+  padding: 140px 0px;
+}
+.quick-title {
+  font-family: "Dancing Script", cursive;
+  color: red;
+  font-weight: bold;
+  font-size: 40px;
+}
+.quick-sub-title {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
