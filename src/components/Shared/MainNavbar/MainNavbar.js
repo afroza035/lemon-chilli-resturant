@@ -5,7 +5,7 @@ import "./MainNavbar.css";
 
 const MainNavbar = () => {
   return (
-    <div className="">
+    <div className="fixed-top bg-white">
       <nav className="navbar navbar-expand-lg navbar-light container p-0">
         <div className="container-fluid">
           <Link className="navbar-brand" to="#">
@@ -58,7 +58,7 @@ const MainNavbar = () => {
           </div>
         </div>
       </nav>
-      <hr style={{padding:'0', margin:'0'}} />
+      <hr style={{ padding: "0", margin: "0" }} />
     </div>
   );
 };
