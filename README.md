@@ -7,4 +7,5 @@
     1. HomeHeader(Update)
     2. Discover(Update)
     3. OurStory
+    4. OurMenu
 3. NotFound
