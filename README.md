@@ -8,4 +8,5 @@
     2. Discover(Update)
     3. OurStory
     4. OurMenu
+    5. quickReservation
 3. NotFound

@@ -15,7 +15,7 @@ const QuickReservation = () => {
             <h2 className="quick-title">Quick Reservation</h2>
             <p className="ubuntu-text quick-sub-title text-white">RESERVATION FOR YOUR COMFORT!</p>
           </div>
-          <div className="">
+          <div className="container">
             <form className="row" onSubmit={handleSubmit(onSubmit)}>
               <div className="col-md-4 pb-4">
                 <input
