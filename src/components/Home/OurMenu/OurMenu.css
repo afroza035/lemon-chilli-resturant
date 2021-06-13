@@ -1,0 +1,22 @@
+.out-menu-title {
+  font-family: "Dancing Script", cursive;
+  color: red;
+  font-weight: bold;
+  font-size: 40px;
+}
+.out-menu-sub-title {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+.food-name{
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+.food-price{
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+}
+.food-description{
+  font-family: "Open Sans", sans-serif;
+}

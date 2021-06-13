@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "foodName": "Chicken",
+    "foodImg": "https://cdn.britannica.com/67/154467-131-8E13B7BD/Cajun-dish.jpg",
+    "price": 70,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptate ratione rem autem? Deleniti, magnam."
+  },
+  {
+    "id": 2,
+    "foodName": "Chicken",
+    "foodImg": "https://cdn.britannica.com/67/154467-131-8E13B7BD/Cajun-dish.jpg",
+    "price": 70,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptate ratione rem autem? Deleniti, magnam."
+  },
+  {
+    "id": 3,
+    "foodName": "Chicken",
+    "foodImg": "https://cdn.britannica.com/67/154467-131-8E13B7BD/Cajun-dish.jpg",
+    "price": 70,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptate ratione rem autem? Deleniti, magnam."
+  },
+  {
+    "id": 4,
+    "foodName": "Chicken",
+    "foodImg": "https://cdn.britannica.com/67/154467-131-8E13B7BD/Cajun-dish.jpg",
+    "price": 70,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptate ratione rem autem? Deleniti, magnam."
+  },
+  {
+    "id": 5,
+    "foodName": "Chicken",
+    "foodImg": "https://cdn.britannica.com/67/154467-131-8E13B7BD/Cajun-dish.jpg",
+    "price": 70,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptate ratione rem autem? Deleniti, magnam."
+  },
+  {
+    "id": 6,
+    "foodName": "Chicken",
+    "foodImg": "https://cdn.britannica.com/67/154467-131-8E13B7BD/Cajun-dish.jpg",
+    "price": 70,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptate ratione rem autem? Deleniti, magnam."
+  },
+  {
+    "id": 7,
+    "foodName": "Chicken",
+    "foodImg": "https://cdn.britannica.com/67/154467-131-8E13B7BD/Cajun-dish.jpg",
+    "price": 70,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptate ratione rem autem? Deleniti, magnam."
+  },
+  {
+    "id": 8,
+    "foodName": "Chicken",
+    "foodImg": "https://cdn.britannica.com/67/154467-131-8E13B7BD/Cajun-dish.jpg",
+    "price": 70,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptate ratione rem autem? Deleniti, magnam."
+  },
+  {
+    "id": 9,
+    "foodName": "Chicken",
+    "foodImg": "https://cdn.britannica.com/67/154467-131-8E13B7BD/Cajun-dish.jpg",
+    "price": 70,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptate ratione rem autem? Deleniti, magnam."
+  },
+  {
+    "id": 10,
+    "foodName": "Chicken",
+    "foodImg": "https://cdn.britannica.com/67/154467-131-8E13B7BD/Cajun-dish.jpg",
+    "price": 70,
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptate ratione rem autem? Deleniti, magnam."
+  }
+]

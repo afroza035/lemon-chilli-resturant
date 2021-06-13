@@ -40,7 +40,7 @@ const Discover = () => {
                 src={discover.logoImage}
               />
               <h5 className="discover-tittle">{discover.title}</h5>
-              <p className="discover-description">{discover.description}</p>
+              <p className="discover-description text-muted">{discover.description}</p>
             </div>
           ))}
         </div>
