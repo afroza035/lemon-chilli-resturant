@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import foodItemData from "../../../FoodItemData/foodItemData.json";
+import foodItemData from "../../../fakeData/FoodItemData/foodItemData.json";
 import "./OurMenu.css";
 
 const OurMenu = () => {
