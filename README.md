@@ -9,4 +9,5 @@
     3. OurStory
     4. OurMenu
     5. quickReservation
+    6. ourTeam
 3. NotFound
