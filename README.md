@@ -10,4 +10,5 @@
     4. OurMenu
     5. quickReservation
     6. ourTeam
+    7. ourBlog
 3. NotFound
