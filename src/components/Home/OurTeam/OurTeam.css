@@ -1,0 +1,14 @@
+.our-team-title {
+  font-family: "Dancing Script", cursive;
+  color: red;
+  font-weight: bold;
+  font-size: 40px;
+}
+.our-team-sub-title {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+.chef-name-color{
+    color: red;
+}

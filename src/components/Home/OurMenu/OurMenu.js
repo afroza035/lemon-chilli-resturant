@@ -18,8 +18,8 @@ const OurMenu = () => {
     <div className="my-5">
       <div className="container">
         <div className="our-menu text-center">
-          <h2 className="out-menu-title">Our Menu</h2>
-          <p className="out-menu-sub-title">EXPLORE OUR FOODS</p>
+          <h2 className="our-menu-title">Our Menu</h2>
+          <p className="our-menu-sub-title">EXPLORE OUR FOODS</p>
           <div className="mt-5 row">
             {foodItems.slice(0, visible).map((food) => (
               <div className="col-md-6 pb-3">
