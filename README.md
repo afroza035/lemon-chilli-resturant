@@ -11,4 +11,5 @@
     5. quickReservation
     6. ourTeam
     7. ourBlog(Update)
+    8. homeTestimonial
 3. NotFound
