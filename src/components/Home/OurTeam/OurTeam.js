@@ -60,12 +60,12 @@ const OurTeam = () => {
     setChefs(allChef);
   }, []);
   return (
-    <div className=''>
+    <div className='my-5'>
       <div className="our-team-style container">
         <div className="text-center">
           <h2 className="our-team-title">Our Team</h2>
           <p className="our-team-sub-title">MEET WITH OUR COOK</p>
-          <div className="px-5">
+          <div className="p-5">
             <Swiper
               slidesPerView={1}
               spaceBetween={10}
@@ -80,8 +80,8 @@ const OurTeam = () => {
                   spaceBetween: 30,
                 },
                 1024: {
-                  slidesPerView: 4,
-                  spaceBetween: 40,
+                  slidesPerView: 3,
+                  spaceBetween: 30,
                 },
               }}
               loop={true}
@@ -93,7 +93,7 @@ const OurTeam = () => {
                 <SwiperSlide className="">
                   <img className="img-fluid rounded" src={chef.img} alt="" />
                   <h2 className='ubuntu-text chef-name-color mt-2'>{chef.name}</h2>
-                  <p className='ubuntu-text'>{chef.title}</p>
+                  <p className='ubuntu-text'>{chef.title}, TLCR</p>
                 </SwiperSlide>
               ))}
             </Swiper>
