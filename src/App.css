@@ -3,12 +3,30 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
 
-.dancing-text{
-    font-family: 'Dancing Script', cursive;
+.dancing-text {
+  font-family: "Dancing Script", cursive;
 }
-.ubuntu-text{
-    font-family: 'Ubuntu', sans-serif;
+.ubuntu-text {
+  font-family: "Ubuntu", sans-serif;
 }
-.openSans-text{
-    font-family: 'Open Sans', sans-serif;
+.openSans-text {
+  font-family: "Open Sans", sans-serif;
+}
+.btn-background {
+  background: rgba(248, 212, 83, 1);
+  background: -webkit-linear-gradient(
+    top left,
+    rgba(248, 212, 83, 1),
+    rgba(255, 93, 91, 1)
+  );
+  background: -moz-linear-gradient(
+    top left,
+    rgba(248, 212, 83, 1),
+    rgba(255, 93, 91, 1)
+  );
+  background: linear-gradient(
+    to bottom right,
+    rgba(248, 212, 83, 1),
+    rgba(255, 93, 91, 1)
+  );
 }
