@@ -60,7 +60,7 @@ const QuickReservation = () => {
                 />
               </div>
               <div className="text-center">
-                <input className="btn btn-danger" type="submit" />
+                <input className="btn btn-danger btn-background" type="submit" />
               </div>
             </form>
           </div>

@@ -1,0 +1,44 @@
+.main-footer-style {
+  background-image: url("https://i.ibb.co/cb20D63/lily-banse-YHSwy6uqvk-unsplash-1.jpg");
+  background-size: cover;
+}
+.main-footer-bg-style {
+  background-color: rgba(0, 0, 0, 0.904);
+}
+
+.footer-icon {
+  background-color: rgb(33, 36, 39, 0.5);
+}
+.footer-icon:hover {
+  background: #c10004;
+  background: -webkit-linear-gradient(top left, #c10004, #e04a22);
+  background: -moz-linear-gradient(top left, #c10004, #e04a22);
+  background: linear-gradient(to bottom right, #c10004, #e04a22);
+}
+.footer-link {
+  background-color: rgb(33, 36, 39, 0.5);
+}
+.footer-input {
+  border-bottom: 1px solid red;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 50%;
+  height: 40px;
+  color: white;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+}
+footer-input:focus {
+  outline: none !important;
+}
+.arrow-style:hover {
+  background: #c10004;
+  background: -webkit-linear-gradient(top left, #c10004, #e04a22);
+  background: -moz-linear-gradient(top left, #c10004, #e04a22);
+  background: linear-gradient(to bottom right, #c10004, #e04a22);
+}
+.link-text-style:hover {
+  color: red !important;
+}

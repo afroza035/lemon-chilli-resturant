@@ -44,7 +44,7 @@ const OurMenu = () => {
               </div>
             ))}
             <div className="">
-              <button onClick={showMoreItems} className="btn btn-danger">
+              <button onClick={showMoreItems} className="btn btn-danger btn-background">
                 Load More
               </button>
             </div>
