@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 
 import SwiperCore, { Autoplay } from "swiper/core";
+import { Link } from "react-router-dom";
 
 SwiperCore.use([Autoplay]);
 
@@ -15,7 +16,10 @@ const OurBlog = () => {
     setBlogs(blogData);
   }, []);
   return (
-    <div style={{backgroundColor:"#F7F7F7", padding:"100px 0"}} className="my-5">
+    <div
+      style={{ backgroundColor: "#F7F7F7", padding: "100px 0" }}
+      className="my-5"
+    >
       <div className="text-center container">
         <h2 className="our-blog-title">Our Team</h2>
         <p className="our-blog-sub-title">MEET WITH OUR COOK</p>
@@ -47,14 +51,20 @@ const OurBlog = () => {
           >
             {blogs.map((blog) => (
               <SwiperSlide className="bg-white rounded">
-                <div className="row d-flex align-items-center p-4">
-                  <div className="col-5">
-                    <img className="rounded img-fluid" src={blog.img} alt="" />
+                <div className="row d-flex align-items-center h-25 our-blog-style">
+                  <div className="col-5 image-hover">
+                    <img className="rounded ourBlogImg" src={blog.img} alt="" />
                   </div>
-                  <div className="col-7 text-start">
-                    <h6 className='ubuntu-text'>{blog.date}</h6>
-                    <h5 className='ubuntu-text'>{blog.title}</h5>
-                    <p className='openSans-text'>{blog.description.slice(0, 80)}...</p>
+                  <div className="col-7 text-start p-3">
+                    <h6 style={{ color: "red" }} className="ubuntu-text">
+                      {blog.date}
+                    </h6>
+                    <Link to="/" className='our-blog-heading-title'>
+                      <h5 className="ubuntu-text">{blog.title}</h5>
+                    </Link>
+                    <p className="openSans-text">
+                      {blog.description.slice(0, 80)}...
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
