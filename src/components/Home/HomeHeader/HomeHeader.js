@@ -33,26 +33,26 @@ const HomeHeader = () => {
   ];
   return (
     <div>
-      <Slider className="slider-wrapper" autoplay={5000}>
-        {content.map((item, index) => (
-          <div
-            key={index}
-            className="slider-content"
-            style={{
-              background: `url('${item.image}') no-repeat center center`,
-            }}
-          >
-            <div className="inner">
-              <p className='slider-header-text'>{item.sliderTextHeader}</p>
-              <h1>
-                The <span className="slider-title">{item.title}</span>
-              </h1>
-              <p className='slider-description'>{item.description}</p>
-              {/* <button>{item.button}</button> */}
+        <Slider className="slider-wrapper" autoplay={5000}>
+          {content.map((item, index) => (
+            <div
+              key={index}
+              className="slider-content"
+              style={{
+                background: `url('${item.image}') no-repeat center center`,
+              }}
+            >
+              <div className="inner">
+                <p className="slider-header-text">{item.sliderTextHeader}</p>
+                <h1>
+                  The <span className="slider-title">{item.title}</span>
+                </h1>
+                <p className="slider-description">{item.description}</p>
+                {/* <button>{item.button}</button> */}
+              </div>
             </div>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
     </div>
   );
 };
