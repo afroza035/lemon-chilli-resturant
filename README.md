@@ -12,4 +12,5 @@
     6. ourTeam
     7. ourBlog(Update)
     8. homeTestimonial
-3. NotFound
+3. Footer
+4. NotFound
