@@ -5,6 +5,7 @@ import "swiper/swiper.min.css";
 import "swiper/components/navigation/navigation.min.css";
 import "swiper/components/scrollbar/scrollbar.min.css";
 import SwiperCore, { Navigation, Scrollbar } from "swiper/core";
+import Fade from "react-reveal/Fade";
 
 SwiperCore.use([Navigation, Scrollbar]);
 
@@ -60,45 +61,49 @@ const OurTeam = () => {
     setChefs(allChef);
   }, []);
   return (
-    <div className='my-5'>
+    <div className="my-5">
       <div className="our-team-style container">
-        <div className="text-center">
-          <h2 className="our-team-title">Our Team</h2>
-          <p className="our-team-sub-title">MEET WITH OUR COOK</p>
-          <div className="p-5">
-            <Swiper
-              slidesPerView={1}
-              spaceBetween={10}
-              slidesPerGroup={1}
-              breakpoints={{
-                640: {
-                  slidesPerView: 1,
-                  spaceBetween: 10,
-                },
-                768: {
-                  slidesPerView: 3,
-                  spaceBetween: 30,
-                },
-                1024: {
-                  slidesPerView: 3,
-                  spaceBetween: 30,
-                },
-              }}
-              loop={true}
-              loopFillGroupWithBlank={true}
-              navigation={true}
-              className="mySwiper"
-            >
-              {chefs.map((chef) => (
-                <SwiperSlide className="">
-                  <img className="img-fluid rounded" src={chef.img} alt="" />
-                  <h2 className='ubuntu-text chef-name-color mt-2'>{chef.name}</h2>
-                  <p className='ubuntu-text'>{chef.title}, TLCR</p>
-                </SwiperSlide>
-              ))}
-            </Swiper>
+        <Fade bottom cascade>
+          <div className="text-center">
+            <h2 className="our-team-title">Our Team</h2>
+            <p className="our-team-sub-title">MEET WITH OUR COOK</p>
+            <div className="p-5">
+              <Swiper
+                slidesPerView={1}
+                spaceBetween={10}
+                slidesPerGroup={1}
+                breakpoints={{
+                  640: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                  },
+                  768: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                  },
+                  1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                  },
+                }}
+                loop={true}
+                loopFillGroupWithBlank={true}
+                navigation={true}
+                className="mySwiper"
+              >
+                {chefs.map((chef) => (
+                  <SwiperSlide className="">
+                    <img className="img-fluid rounded" src={chef.img} alt="" />
+                    <h2 className="ubuntu-text chef-name-color mt-2">
+                      {chef.name}
+                    </h2>
+                    <p className="ubuntu-text">{chef.title}, TLCR</p>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
           </div>
-        </div>
+        </Fade>
       </div>
     </div>
   );
