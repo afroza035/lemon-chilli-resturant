@@ -6,7 +6,7 @@ import OurMenu from '../OurMenu/OurMenu';
 import OurStory from '../OurStory/OurStory';
 import OurTeam from '../OurTeam/OurTeam';
 import QuickReservation from '../QuickReservation/QuickReservation';
-import Review from '../Review/Review';
+import Testimonial from '../Testimonial/Testimonial';
 
 const Home = () => {
     return (
@@ -18,7 +18,7 @@ const Home = () => {
             <QuickReservation></QuickReservation>
             <OurTeam></OurTeam>
             <OurBlog></OurBlog>
-            <Review></Review>
+            <Testimonial></Testimonial>
         </div>
     );
 };
