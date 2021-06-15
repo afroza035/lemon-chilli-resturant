@@ -21,7 +21,7 @@ const OurBlog = () => {
       className="my-5"
     >
       <div className="text-center container">
-        <h2 className="our-blog-title">Our Team</h2>
+        <h2 className="our-blog-title">Our Blog</h2>
         <p className="our-blog-sub-title">MEET WITH OUR COOK</p>
         <div className="mt-5">
           <Swiper

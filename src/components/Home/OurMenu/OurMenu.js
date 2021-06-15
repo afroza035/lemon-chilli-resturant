@@ -23,7 +23,7 @@ const OurMenu = () => {
           <div className="mt-5 row">
             {foodItems.slice(0, visible).map((food) => (
               <div className="col-md-6 pb-3">
-                <div className="border p-4 rounded border-danger">
+                <div className="border p-4 rounded border-danger menu-hover-color">
                   <div className="row">
                     <div className="col-4">
                       <img
@@ -37,7 +37,7 @@ const OurMenu = () => {
                         <h2 className='food-name'>{food.foodName}</h2>
                         <h3 className='food-price'>{food.price}$</h3>
                       </div>
-                      <p className="text-start text-muted food-description">{food.description}</p>
+                      <p className="text-start food-description">{food.description}</p>
                     </div>
                   </div>
                 </div>
