@@ -33,7 +33,7 @@ const HomeHeader = () => {
   ];
   return (
     <div>
-        <Slider className="slider-wrapper" autoplay={5000}>
+        <Slider className="slider-wrapper" autoplay={8000}>
           {content.map((item, index) => (
             <div
               key={index}

@@ -19,22 +19,26 @@ const Testimonial = () => {
           <p className="our-testimonial-sub-title">MEET WITH OUR COOK</p>
           <div className="row">
             {testimonials.map((testimonial) => (
-              <div style={{ margin: "40px auto" }} className="col-md-4 p-3">
-                <div className="testimonial-profile rounded">
-                  <img
-                    className="img-fluid testimonial-img-style "
-                    src={testimonial.img}
-                    alt=""
-                  />
-                  <blockquote className="openSans-text">
-                    <FontAwesomeIcon icon={faQuoteLeft} />
-                    {testimonial.description}
-                    <FontAwesomeIcon icon={faQuoteRight} />
-                  </blockquote>
-                  <h4 className="ubuntu-text">{testimonial.name}</h4>
-                  <small className="openSans-text">({testimonial.title})</small>
+              <Fade bottom>
+                <div style={{ margin: "40px auto" }} className="col-md-4 p-3">
+                  <div className="testimonial-profile rounded">
+                    <img
+                      className="img-fluid testimonial-img-style "
+                      src={testimonial.img}
+                      alt=""
+                    />
+                    <blockquote className="openSans-text">
+                      <FontAwesomeIcon icon={faQuoteLeft} />
+                      {testimonial.description}
+                      <FontAwesomeIcon icon={faQuoteRight} />
+                    </blockquote>
+                    <h4 className="ubuntu-text">{testimonial.name}</h4>
+                    <small className="openSans-text">
+                      ({testimonial.title})
+                    </small>
+                  </div>
                 </div>
-              </div>
+              </Fade>
             ))}
           </div>
         </div>

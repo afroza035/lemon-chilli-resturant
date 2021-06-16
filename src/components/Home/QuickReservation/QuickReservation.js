@@ -20,9 +20,9 @@ const QuickReservation = () => {
               </p>
             </div>
           </Fade>
-          <Fade bottom>
-            <div className="container">
-              <form className="row" onSubmit={handleSubmit(onSubmit)}>
+          <div className="container">
+            <form className="row" onSubmit={handleSubmit(onSubmit)}>
+              <Fade bottom>
                 <div className="col-md-4 pb-4">
                   <input
                     className=" w-100 form-control"
@@ -30,6 +30,8 @@ const QuickReservation = () => {
                     {...register("name", { required: true })}
                   />
                 </div>
+              </Fade>
+              <Fade bottom>
                 <div className="col-md-4 pb-4">
                   <input
                     className=" w-100 form-control"
@@ -37,6 +39,8 @@ const QuickReservation = () => {
                     {...register("email", { required: true })}
                   />
                 </div>
+              </Fade>
+              <Fade bottom>
                 <div className="col-md-4 pb-4">
                   <input
                     className="w-100 form-control "
@@ -44,6 +48,8 @@ const QuickReservation = () => {
                     {...register("phone", { required: true })}
                   />
                 </div>
+              </Fade>
+              <Fade bottom>
                 <div className="col-md-4 pb-4">
                   <input
                     className="w-100 form-control"
@@ -51,6 +57,8 @@ const QuickReservation = () => {
                     {...register("time", { required: true })}
                   />
                 </div>
+              </Fade>
+              <Fade bottom>
                 <div className="col-md-4 pb-4">
                   <input
                     className=" w-100 form-control"
@@ -58,6 +66,8 @@ const QuickReservation = () => {
                     {...register("date", { required: true })}
                   />
                 </div>
+              </Fade>
+              <Fade bottom>
                 <div className="col-md-4 pb-4">
                   <input
                     className="w-100 form-control input-style"
@@ -65,15 +75,17 @@ const QuickReservation = () => {
                     {...register("guest", { required: true })}
                   />
                 </div>
+              </Fade>
+              <Fade bottom>
                 <div className="text-center">
                   <input
                     className="btn btn-danger btn-background"
                     type="submit"
                   />
                 </div>
-              </form>
-            </div>
-          </Fade>
+              </Fade>
+            </form>
+          </div>
         </div>
       </div>
     </div>

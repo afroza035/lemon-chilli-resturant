@@ -1,11 +1,11 @@
 .slider-wrapper {
   position: relative;
-  height: 70vh;
+  height: 80vh;
   overflow: hidden;
 }
 
 .slide {
-  height: 70vh;
+  height: 80vh;
   background-size: cover !important;
 }
 
@@ -22,7 +22,7 @@
     from(transparent),
     to(rgba(0, 0, 0, 0.9))
   );
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.945));
   bottom: 0;
   left: 0;
 }
@@ -33,17 +33,25 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-  background: url("https://image.flaticon.com/icons/png/512/130/130884.png")
+  background: url("https://i.ibb.co/q5XgLjy/right-arrow.png")
     no-repeat center center / 30px;
   width: 32px;
   height: 32px;
   text-indent: -9999px;
   cursor: pointer;
+  color: #ffffff;
+  background-color: red;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10%;
 }
 .previousButton:hover,
 .nextButton:hover {
-  background: url("https://image.flaticon.com/icons/png/512/130/130884.png")
+  background: url("https://i.ibb.co/q5XgLjy/right-arrow.png")
     no-repeat center center / 30px;
+  background-color: red;
+  margin: 5px;
+  padding: 15px;
 }
 
 .previousButton {
@@ -52,17 +60,10 @@
   transform: rotate(180deg) translateY(calc(50% + 0px));
 }
 
-.previousButton:hover {
-  left: -10px;
-}
-
 .nextButton {
   right: 0;
 }
 
-.nextButton:hover {
-  right: -10px;
-}
 
 .slider-content {
   text-align: center;
