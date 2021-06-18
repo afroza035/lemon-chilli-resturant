@@ -18,7 +18,7 @@ const OurBlog = () => {
   }, []);
   return (
     <div
-      style={{ backgroundColor: "#F7F7F7", padding: "100px 0" }}
+      style={{ backgroundColor: "#F7F7F7", padding: "50px 0" }}
       className="my-5"
     >
       <Fade bottom cascade>

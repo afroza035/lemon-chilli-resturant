@@ -12,8 +12,10 @@ const OurMenu = () => {
   }, [foodItems]);
 
   const showMoreItems = () => {
-    setVisible((previousValue) => previousValue * 4);
+    setVisible((previousValue) => previousValue * 2);
   };
+
+  const homeMenuCount = foodItems.slice(0, 10);
 
   return (
     <div className="my-5">
@@ -23,7 +25,7 @@ const OurMenu = () => {
             <h2 className="our-menu-title">Our Menu</h2>
             <p className="our-menu-sub-title">EXPLORE OUR FOODS</p>
             <div className="mt-5 row">
-              {foodItems.slice(0, visible).map((food) => (
+              {homeMenuCount.slice(0, visible).map((food) => (
                 <Fade bottom>
                   <div className="col-md-6 pb-3">
                     <div className="border p-4 rounded border-danger menu-hover-color">

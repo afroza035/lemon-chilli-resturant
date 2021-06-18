@@ -1,0 +1,17 @@
+.delicious-button{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
+.pill-main-navbar{
+    width: 500px;
+}
+.pill-navbar{
+    height: 50px;
+}
+.pill-navbar-item{
+    height: 100%;
+}
+.nav-pills .nav-link.active{
+    background-color: red;
+}
