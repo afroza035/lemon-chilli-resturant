@@ -1,0 +1,11 @@
+.menu-header {
+  background-image: url("https://i.ibb.co/HFTch71/jay-wennington-N-Y88-TWm-Gw-A-unsplash-1.jpg");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.menu-bg{
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 400px;
+}

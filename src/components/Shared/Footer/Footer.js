@@ -82,7 +82,7 @@ const Footer = () => {
                   </Link>
                 </div>
               </div>
-              <div className="col-md-8 py-3 ps-5">
+              <div className="col-md-8 py-3 ps-0 ps-md-5">
                 <div className="row footer-link p-4">
                   <div className="col-6 col-md-4">
                     <h4>Useful Links</h4>

@@ -33,20 +33,22 @@ const Discover = () => {
           <h3>Discover</h3>
           <h4>MOST FAMOUS RESTAURANT</h4>
           <div className="row">
-            {famous.map((discover) => (
-              <div className="col-md-4 mt-3 px-4">
-                <img
-                  style={{ height: "70px", width: "70px" }}
-                  alt=""
-                  className="card-img-top rounded-circle"
-                  src={discover.logoImage}
-                />
-                <h5 className="discover-tittle">{discover.title}</h5>
-                <p className="discover-description text-muted">
-                  {discover.description}
-                </p>
-              </div>
-            ))}
+            <Fade bottom>
+              {famous.map((discover) => (
+                <div className="col-md-4 mt-3 px-4">
+                  <img
+                    style={{ height: "70px", width: "70px" }}
+                    alt=""
+                    className="card-img-top rounded-circle"
+                    src={discover.logoImage}
+                  />
+                  <h5 className="discover-tittle">{discover.title}</h5>
+                  <p className="discover-description text-muted">
+                    {discover.description}
+                  </p>
+                </div>
+              ))}
+            </Fade>
           </div>
         </div>
       </Fade>

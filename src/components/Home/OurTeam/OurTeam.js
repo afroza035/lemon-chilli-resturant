@@ -61,13 +61,13 @@ const OurTeam = () => {
     setChefs(allChef);
   }, []);
   return (
-    <div className="my-5">
+    <div className="">
       <div className="our-team-style container">
         <Fade bottom cascade>
           <div className="text-center">
             <h2 className="our-team-title">Our Team</h2>
             <p className="our-team-sub-title">MEET WITH OUR COOK</p>
-            <div className="p-5">
+            <div className="px-5 py-2">
               <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
