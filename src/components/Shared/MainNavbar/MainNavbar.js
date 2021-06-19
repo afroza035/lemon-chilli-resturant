@@ -53,7 +53,7 @@ const MainNavbar = () => {
               <Link className="nav-link ms-4 navbar-font-style" to="#">
                 Blog
               </Link>
-              <Link className="nav-link ms-4 navbar-font-style" to="#">
+              <Link className="nav-link ms-4 navbar-font-style" to="/aboutUs">
                 About Us
               </Link>
               <Link className="nav-link ms-4 navbar-font-style" to="#">
