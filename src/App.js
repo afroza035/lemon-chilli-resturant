@@ -6,23 +6,27 @@ import MainNavbar from "./components/Shared/MainNavbar/MainNavbar";
 import Footer from "./components/Shared/Footer/Footer";
 import Menu from "./components/Menu/Menu/Menu";
 import AboutUs from "./components/AboutUs/AboutUs/AboutUs";
+import Contact from "./components/Contact/Contact/Contact";
 function App() {
   return (
     <Router>
       <div className="">
         <MainNavbar></MainNavbar>
         <Switch>
-        <Route exact path="/">
+          <Route exact path="/">
             <Home />
           </Route>
           <Route path="/home">
             <Home />
           </Route>
           <Route path="/menu">
-            <Menu/>
+            <Menu />
           </Route>
           <Route path="/aboutUs">
-            <AboutUs></AboutUs>
+            <AboutUs />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
           <Route path="*">
             <NotFound />

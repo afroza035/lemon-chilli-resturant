@@ -3,10 +3,12 @@ import React from "react";
 const AboutDiscover = () => {
   return (
     <div className="container text-center my-5 px-3">
-      <h2>Discover</h2>
-      <h5>RESTAURANT HISTORY</h5>
-      <h6>The standard Lorem Ipsum passage, used since the 1500s</h6>
-      <p style={{ textAlign: "justify" }} className='px-3'>
+      <h2 className="dancing-text display-5 text-red">Discover</h2>
+      <h3 className="ubuntu-text">RESTAURANT HISTORY</h3>
+      <h4 className="ubuntu-text mt-5">
+        The standard Lorem Ipsum passage, used since the 1500s
+      </h4>
+      <p style={{ textAlign: "justify" }} className="px-3 openSans-text">
         At vero eos et accusamus et iusto odio dignissimos ducimus qui
         blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
         et quas moles - tias excepturi sint occaecati cupiditate non provident,

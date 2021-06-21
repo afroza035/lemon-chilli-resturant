@@ -18,11 +18,11 @@ const DeliciousAllItems = () => {
               </div>
               <div className="col-8 text-start">
                 <div className="d-flex justify-content-between">
-                  <h2>{allItem.foodName}</h2>
-                  <h1>{allItem.price}$</h1>
+                  <h2 className='ubuntu-text'>{allItem.foodName}</h2>
+                  <h1 className='dancing-text'>{allItem.price}$</h1>
                 </div>
-                <h6>Category: {allItem.category}</h6>
-                <p>{allItem.description}</p>
+                <h6 className='openSans-text text-muted'>Category: {allItem.category}</h6>
+                <p className='openSans-text'>{allItem.description}</p>
               </div>
             </div>
           </div>

@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="container p-5">
             <div className="row m-0 border p-5">
               <div className="col-md-6 text-center">
-                <h2 className="ubuntu-text">SUBSCRIBE TO OUR NEWS LETTER</h2>
+                <h3 className="ubuntu-text">SUBSCRIBE TO OUR NEWS LETTER</h3>
               </div>
               <div className="col-md-6 text-center">
                 <input
@@ -82,8 +82,8 @@ const Footer = () => {
                   </Link>
                 </div>
               </div>
-              <div className="col-md-8 py-3 ps-0 ps-md-5">
-                <div className="row footer-link p-4">
+              <div className="col-md-8 py-3">
+                <div className="row footer-link p-4 rounded-3">
                   <div className="col-6 col-md-4">
                     <h4>Useful Links</h4>
                     <p>
