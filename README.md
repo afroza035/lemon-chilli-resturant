@@ -15,5 +15,6 @@
 3. Menu
 4. 
 5. AboutUs
-6. Footer
-7. NotFound
+6. Contact
+7. Footer
+8. NotFound
