@@ -5,6 +5,7 @@ import Home from "./components/Home/Home/Home";
 import MainNavbar from "./components/Shared/MainNavbar/MainNavbar";
 import Footer from "./components/Shared/Footer/Footer";
 import Menu from "./components/Menu/Menu/Menu";
+import Blog from "./components/Blog/Blog/Blog";
 function App() {
   return (
     <Router>
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route path="/menu">
             <Menu/>
+          </Route>
+          <Route path="/blog">
+            <Blog />
           </Route>
           <Route path="*">
             <NotFound />
