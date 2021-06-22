@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NotFound from "./components/NotFound/NotFound";
 import Home from "./components/Home/Home/Home";
 import MainNavbar from "./components/Shared/MainNavbar/MainNavbar";
-import Footer from "./components/Shared/Footer/Footer";
 import Menu from "./components/Menu/Menu/Menu";
 import AboutUs from "./components/AboutUs/AboutUs/AboutUs";
 import Contact from "./components/Contact/Contact/Contact";
+import Login from "./components/Login/Login";
 function App() {
   return (
     <Router>
@@ -28,12 +28,14 @@ function App() {
           <Route path="/contact">
             <Contact />
           </Route>
+          <Route path="/login">
+            <Login />
+          </Route>
           <Route path="*">
             <NotFound />
           </Route>
         </Switch>
       </div>
-      <Footer></Footer>
     </Router>
   );
 }
