@@ -17,3 +17,7 @@ font-family: 'Ubuntu', sans-serif; */
   background: -moz-linear-gradient(top left, #c10004, #e04a22);
   background: linear-gradient(to bottom right, #c10004, #e04a22);
 }
+
+.text-red{
+  color: red;
+}

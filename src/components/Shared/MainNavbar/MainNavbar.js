@@ -43,30 +43,33 @@ const MainNavbar = () => {
             className="collapse navbar-collapse justify-content-end"
             id="navbarNavAltMarkup"
           >
-            <div className="navbar-nav">
-              <Link className="nav-link ms-4 navbar-font-style" to="/home">
+            <div className="navbar-nav text-center">
+              <Link className="nav-link ms-md-4 navbar-font-style" to="/home">
                 Home
               </Link>
-              <Link className="nav-link ms-4 navbar-font-style" to="/menu">
+              <Link className="nav-link ms-md-4 navbar-font-style" to="/menu">
                 Menu
               </Link>
               <Link className="nav-link ms-4 navbar-font-style" to="/blog">
                 Blog
               </Link>
-              <Link className="nav-link ms-4 navbar-font-style" to="#">
+              <Link
+                className="nav-link ms-md-4 navbar-font-style"
+                to="/aboutUs"
+              >
                 About Us
               </Link>
-              <Link className="nav-link ms-4 navbar-font-style" to="#">
+              <Link
+                className="nav-link ms-md-4 navbar-font-style"
+                to="/contact"
+              >
                 Contact
               </Link>
-              <Link className="nav-link ms-4 navbar-font-style" to="#">
-                Dashboard
+              <Link className="nav-link ms-md-4 navbar-font-style" to="#">
+                Sign Up
               </Link>
-              <Link className="nav-link ms-4 navbar-font-style" to="#">
-                Admin
-              </Link>
-              <Link className="nav-link ms-4 btn btn-danger text-white" to="#">
-                Book Now
+              <Link className="nav-link ms-md-4 navbar-font-style" to="#">
+                Log In
               </Link>
             </div>
           </div>

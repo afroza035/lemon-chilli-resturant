@@ -9,8 +9,8 @@ const Delicious = () => {
   return (
     <div className='my-5'>
       <div className="container text-center">
-        <h2>Delicious</h2>
-        <p>FOUR COURSE TASTING MENU</p>
+        <h2 className='dancing-text display-5 text-red'>Delicious</h2>
+        <p className='ubuntu-text'>FOUR COURSE TASTING MENU</p>
         <div className="">
           <div className="d-flex justify-content-center">
             <div className="pill-main-navbar p-3">
@@ -30,7 +30,7 @@ const Delicious = () => {
                     data-bs-target="#pills-all-items"
                     role="tab"
                   >
-                    All Items
+                    All Food
                   </button>
                 </li>
                 <li

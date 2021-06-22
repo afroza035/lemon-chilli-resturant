@@ -25,11 +25,11 @@ const Lunch = () => {
               </div>
               <div className="col-8 text-start">
                 <div className="d-flex justify-content-between">
-                  <h2>{lunch.foodName}</h2>
-                  <h1>{lunch.price}$</h1>
+                  <h2 className='ubuntu-text'>{lunch.foodName}</h2>
+                  <h1 className='dancing-text'>{lunch.price}$</h1>
                 </div>
-                <h6>Category: {lunch.category}</h6>
-                <p>{lunch.description}</p>
+                <h6 className='openSans-text text-muted'>Category: {lunch.category}</h6>
+                <p className='openSans-text'>{lunch.description}</p>
               </div>
             </div>
           </div>

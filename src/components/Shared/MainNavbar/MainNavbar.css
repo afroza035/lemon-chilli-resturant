@@ -1,13 +1,14 @@
 .navbar-font-style {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #ffff !important;
+  font-weight: bold;
 }
 .navbar-font-style:hover {
   color: red !important;
 }
 .navbar-bg-color {
-  background: rgba(0, 0, 0, 0.383) !important;
+  background: rgba(0, 0, 0, 0.794) !important;
 }
 .navbar-bg-color.active {
   background: rgb(0, 0, 0) !important;
