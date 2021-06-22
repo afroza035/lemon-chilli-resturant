@@ -13,7 +13,7 @@
     7. ourBlog(Update)
     8. homeTestimonial
 3. Menu
-4. 
+4. Blog
 5. AboutUs
 6. Contact
 7. Footer

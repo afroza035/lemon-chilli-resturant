@@ -1,0 +1,9 @@
+.gallery {
+  font-weight: bold;
+}
+.blog-gallery-box img {
+  transition: all 400ms ease;
+}
+.blog-gallery-box img:hover {
+  transform: scale(1.1);
+}

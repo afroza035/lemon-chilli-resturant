@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../../images/logo/logo.png";
-import Login from "../../Login/Login";
 import "./MainNavbar.css";
 
 const MainNavbar = () => {
@@ -51,7 +50,7 @@ const MainNavbar = () => {
               <Link className="nav-link ms-md-4 navbar-font-style" to="/menu">
                 Menu
               </Link>
-              <Link className="nav-link ms-md-4 navbar-font-style" to="#">
+              <Link className="nav-link ms-4 navbar-font-style" to="/blog">
                 Blog
               </Link>
               <Link

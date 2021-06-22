@@ -1,0 +1,16 @@
+.recent-date {
+    color: #D02529;
+}
+.box-head {
+    text-decoration: none;
+    color: #2A2B2C;
+}
+.box-head:hover {
+    color: red;
+}
+.recent {
+    font-weight: bold;
+}
+.recent-link {
+    text-decoration: none;
+}

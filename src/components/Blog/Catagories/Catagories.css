@@ -1,0 +1,27 @@
+.blog-search input {
+  width: 100%;
+  padding: 15px 60px 15px 20px;
+  background: #d02529;
+  color: #fff;
+  border: 0;
+}
+.blog-search input:focus {
+  outline: none;
+}
+.blog-search input::placeholder {
+  color: rgb(255, 255, 255, 0.5);
+}
+.blog-sidebar-title {
+  font-size: 18px;
+}
+
+.blog-search-btn {
+  background-color: #d02529;
+  border: none;
+}
+.Categories-blog {
+  color: #999999;
+}
+.Categories-blog li:hover {
+  color: #d02529;
+}
